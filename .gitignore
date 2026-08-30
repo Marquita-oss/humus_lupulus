@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Data (not tracked – available upon request)
+*.xlsx
+*.xls
+data/raw/
+
+# Generated outputs (figures, processed tables) derive directly from sensitive
+# research data and are not published in this repository. Only the pipeline
+# code is shared; regenerate these locally with scripts/run_pipeline.py.
+figures/
+output/
